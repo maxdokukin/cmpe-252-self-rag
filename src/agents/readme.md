@@ -105,7 +105,7 @@ We evaluated:
 
 ---
 
-## 🏁 Conclusion
+## Conclusion
 
 Our contribution demonstrates that adding an **Agentic Verification Layer** on top of SELF-RAG:
 - Prevents hallucinations even in long reasoning chains  

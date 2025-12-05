@@ -91,48 +91,6 @@ We evaluated:
 
 ---
 
-## Figures & Visual Results
-
-### **Figure 1 — SELF-RAG vs Agentic Self-RAG Reliability Comparison**
-![SELF vs AGENTIC](src/agents/SELFVSAGENTIC.png?raw=true)
-
-*This figure compares 7 reasoning cases, showing that Agentic Self-RAG achieves 60–80% higher reliability by enforcing step-wise verification.*
-
----
-
-### **Figure 2 — Evidence & Verification Heatmap**
-![Evidence Heatmap](src/agents/evidence.png?raw=true)
-
-*This heatmap highlights stronger evidence grounding across all reasoning tasks when using the Agentic Verification Layer.*
-
----
-
-### Figure — SELF-RAG vs Agentic Self-RAG
-<img src="src/agents/SELFVSAGENTIC.png" width="700">
-
-### Figure — Evidence Heatmap
-<img src="src/agents/evidence.png" width="700">
-
-
-
-
-__ 
-### **Key Outcomes**
-| Capability | SELF-RAG | AGENTIC SELF-RAG |
-|-----------|----------|------------------|
-| Hallucination prevention | Medium | **Very High** |
-| Evidence consistency | Medium | **High** |
-| Verification depth | Low | **Very High** |
-| Multi-step reliability | Low | **High** |
-| Explanation quality | Good | **Excellent** |
-
-### **Visualization Highlights**
-- Agentic Self-RAG shows *60–80% higher reliability scores*.  
-- Heatmaps show significantly stronger evidence grounding.  
-- Multi-step stability improves dramatically.
-
----
-
 ## Conclusion
 
 Our contribution demonstrates that adding an **Agentic Verification Layer** on top of SELF-RAG:

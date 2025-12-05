@@ -107,6 +107,12 @@ We evaluated:
 
 ---
 
+### Figure — SELF-RAG vs Agentic Self-RAG
+<img src="src/agents/SELFVSAGENTIC.png" width="700">
+
+### Figure — Evidence Heatmap
+<img src="src/agents/evidence.png" width="700">
+
 
 
 

@@ -89,9 +89,24 @@ We evaluated:
 6. Justification of steps  
 7. Long-horizon planning  
 
-### Plots and Visualizations 
+---
+
+## Figures & Visual Results
+
+### **Figure 1 — SELF-RAG vs Agentic Self-RAG Reliability Comparison**
 ![SELF vs AGENTIC](src/agents/SELFVSAGENTIC.png?raw=true)
+
+*This figure compares 7 reasoning cases, showing that Agentic Self-RAG achieves 60–80% higher reliability by enforcing step-wise verification.*
+
+---
+
+### **Figure 2 — Evidence & Verification Heatmap**
 ![Evidence Heatmap](src/agents/evidence.png?raw=true)
+
+*This heatmap highlights stronger evidence grounding across all reasoning tasks when using the Agentic Verification Layer.*
+
+---
+
 
 
 

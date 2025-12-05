@@ -89,6 +89,13 @@ We evaluated:
 6. Justification of steps  
 7. Long-horizon planning  
 
+### Plots and Visualizations 
+![SELF vs AGENTIC Reliability Comparison](src/agents/SELFVSAGENTIC.png)
+
+![Evidence Verification Heatmap](src/agents/evidence.png)
+
+
+__ 
 ### **Key Outcomes**
 | Capability | SELF-RAG | AGENTIC SELF-RAG |
 |-----------|----------|------------------|

@@ -90,7 +90,7 @@ We evaluated:
 7. Long-horizon planning  
 
 ### Plots and Visualizations 
-![SELF vs AGENTIC Reliability Comparison](src/agents/SELFVSAGENTIC.png)
+![SELF vs AGENTIC Reliability Comparison](/SELFVSAGENTIC.png)
 
 ![Evidence Verification Heatmap](src/agents/evidence.png)
 

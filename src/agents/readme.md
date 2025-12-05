@@ -21,6 +21,11 @@ The goal: **Build a hallucination-resistant agent capable of safe, verifiable mu
 
 ---
 
+<img src="https://raw.githubusercontent.com/<USER>/<REPO>/main/src/agents/SELFVSAGENTIC.png" width="700">
+
+<img src="https://raw.githubusercontent.com/<USER>/<REPO>/main/src/agents/evidence.png" width="700">
+
+
 ## How to Run
 
 ### **1. Install Dependencies**

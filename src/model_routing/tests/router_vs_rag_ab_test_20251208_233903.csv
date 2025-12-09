@@ -1,0 +1,183 @@
+id,query,baseline_ans,baseline_latency,router_ans,router_latency,route_picked,latency_reduction,speedup_factor,baseline_score,router_score,score_diff
+0,Hello there!,"1.[No Retrieval]Hello Out There!
+2.[No Retrieval]Hello, Are You There?
+3.[No Retrieval]Hello!
+4.[No Retrieval]Hello There Big Boy!
+5.[No Retrieval]Hello There, Universe[Utility:5]",2.110476016998291,Hello!How can I help you today?,0.2391495704650879,SIMPLE,1.8713264465332031,8.824920792849124,1,1,0
+1,Tell me a joke.,"Sure![No Retrieval]Here's a classic joke:
+
+Why don't scientists trust atoms?[No Retrieval]Because they make up everything!
+
+I hope that helps![Utility:5]",2.0627212524414062,"Sure!Here's a classic joke:
+
+Why don't scientists trust atoms?Because they make up everything!
+
+I hope you enjoyed it!",0.5740132331848145,SIMPLE,1.4887080192565918,3.5935081862080938,1,1,0
+2,Write a haiku about rain.,"Raindrops on leaves
+Soft pitter-patters in the night
+Nature's lullaby.[Utility:5]",1.9103004932403564,"Raindrops on leaves,
+Softly falling from the sky,
+Nature's lullaby.",0.4054598808288574,SIMPLE,1.504840612411499,4.711441460830214,3,3,0
+3,What is the capital of France?,The capital of France is Paris.[Utility:5],1.6754848957061768,The capital of France is Paris.,1.7466161251068115,RAG,-0.07113122940063477,0.9592748352782527,3,3,0
+4,Suggest a name for a pet cat.,"1.[No Retrieval]Penelope
+2.[No Retrieval]Oscar
+3.[No Retrieval]Mia
+4.[No Retrieval]Luna
+5.[No Retrieval]Sophie
+6.[No Retrieval]Bella
+7.[No Retrieval]Grace
+8.[No Retrieval]Charlie
+9.[No Retrieval]Alice
+10.[No Retrieval]Sammy[Utility:5]",2.3650717735290527,"Some suggestions for names for a pet cat could be:
+
+1.Purr-scious
+2. Whiskers
+3.Mew-mew
+4. Paw-sitively
+5.Purr-n-Paws
+6. Whisker-butt
+7.Purr-ocious
+8. Purr-fect
+9.Purr-y
+10. Purr-scious
+11.Purr-fectly
+12. Purr-fectly
+13.Purr-fectly
+14. Purr-fectly
+15.Purr-fectly
+16.Purr-fectly
+17.Purr-fectly
+18.Purr-fectly
+19.Purr-fectly
+20.Purr-fectly
+21.Purr-fectly
+22.Purr-fectly
+23.Purr-fectly
+24.Purr-fectly
+25.Purr-fectly
+26.Purr-fectly
+27.Purr-fectly
+28.Purr-fectly
+29.Purr-fectly
+30.Purr-fectly
+31.",3.683140754699707,SIMPLE,-1.3180689811706543,0.6421345072167575,1,3,2
+5,How are you today?,I don't know.[Utility:5],1.6660912036895752,"I'm doing well today, thanks for asking!How about you?",0.29836153984069824,SIMPLE,1.367729663848877,5.5841352896192245,1,1,0
+6,Translate 'Good morning' to Spanish.,Good morning[Utility:5],1.6105899810791016,Buenos días.,0.17077422142028809,SIMPLE,1.4398157596588135,9.431107152380568,1,1,0
+7,List three primary colors.,"1.Red
+2.Blue
+3.Yellow[Utility:5]",1.7378134727478027,Error: No math found.,0.23092889785766602,TOOL,1.5068845748901367,7.525318350667881,1,1,0
+8,Make up a short story about a wizard.,"Once upon a time, in a far-off kingdom, there lived a powerful wizard named Merlin.[Retrieval]<paragraph>[Relevant]He was known for his magical powers and his ability to manipulate the physical and spiritual worlds.[No support / Contradictory][No Retrieval]One day, a young princess named Ava was in need of help.[No Retrieval]She had been cursed by an evil witch and was unable to speak or move.[No Retrieval]Ava's parents were desperate and turned to Merlin for help.[No Retrieval]Merlin knew that only a powerful spell could break the curse, but he was hesitant to use his magic for such a selfish purpose.[No Retrieval]He decided to seek out the help of a wise old woman who lived deep in the forest.[No Retrieval]The wise woman listened to Merlin's story and told him that the only way to break the curse was to give up something precious.[No Retrieval]Merlin was hesitant, but he knew that Ava's happiness was worth any sacrifice.[No Retrieval]He decided to give up his own voice in exchange for Ava's freedom.[No Retrieval]With a wave of his wand, Merlin's voice was silenced and Ava was able to speak and move again.[No Retrieval]The kingdom rejoiced and Ava thanked Merlin for his selfless act.[No Retrieval]From that day on, Merlin was known as the greatest wizard in all the land, not just for his magical powers, but for his kindness",5.351739406585693,"Once upon a time, there was a wizard named Merlin.",0.3215792179107666,SIMPLE,5.030160188674927,16.642056166921584,3,1,-2
+9,What comes after Monday?,    Tuesday[Utility:5],1.6357574462890625,Error: No math found.,0.06033134460449219,TOOL,1.5754261016845703,27.11289557712371,1,1,0
+10,Who won the Nobel Prize in Literature in 2020?,"[Retrieval]<paragraph>[Irrelevant]The 2020 Nobel Prize in Literature was awarded Kazuo Ishiguro ""who, in novels of great emotional force, has uncovered the abyss beneath our illusory sense of connection with the world.""[Continue to Use Evidence]The prize was announced by the Swedish Academy on 5 October 2017.[Utility:5]",2.5089595317840576,"The 2020 Nobel Prize in Literature was awarded Kazuo Ishiguro ""who, in novels of great emotional force, has uncovered the abyss beneath our illusory sense of connection with the world.""[Continue to Use Evidence]The prize was announced by the Swedish Academy on 5 October 2017.",2.5669989585876465,RAG,-0.05803942680358887,0.9773901634788656,3,3,0
+11,Explain the plot of the movie 'Tenet'.,Sure![Retrieval]<paragraph>[Irrelevant]I don't know[Utility:5],1.719703197479248,Sure!I don't know,1.779496669769287,RAG,-0.05979347229003906,0.9663986601909228,1,1,0
+12,What is the battery life of the iPhone 12?,"[Retrieval]<paragraph>[Irrelevant]Talk: 3.7 hours, Standby: 180 hours[Utility:5]",1.8402729034423828,"Talk: 3.7 hours, Standby: 180 hours",1.903242588043213,RAG,-0.06296968460083008,0.9669145252442195,1,3,2
+13,Who is the CEO of Twitter in 2022?,The CEO of Twitter in 2022 is Parag Agrawal.[Utility:5],1.8172821998596191,The CEO of Twitter in 2022 is Parag Agrawal.,1.8712995052337646,RAG,-0.05401730537414551,0.9711338002158038,4,5,1
+14,What happened in the Beirut explosion?,"1.[Retrieval]<paragraph>[Irrelevant]A car bomb exploded in Beirut, Lebanon killing 27 people and injuring over 200 people.[Continue to Use Evidence]The car bomb was intended for the stronghold of Hezbollah.[Continue to Use Evidence]It was reportedly the ""worst explosion in south Beirut"" since a 1985 truck bomb assassination attempt targeting top Shiite cleric Mohammed Hussein Fadlallah.[Continue to Use Evidence]The Islamist group Aisha Umm-al Mouemeneen, also known as Brigades of Aisha, were responsible for the explosion.[Continue to Use Evidence]In their statement the group accused Hezbollah of being Iranian agents and threatened more attacks.[Continue to Use Evidence]""This is the second time that we decide the time and place of the battle ... And you will see 
+
+2.[Continue to Use Evidence]The 2020 Beirut explosion occurred on 4 August 2020, when a large amount of ammonium nitrate stored at the Port of Beirut in the capital city of Lebanon exploded, causing at least 218 deaths, 7,000 injuries, and US$15 billion in property damage, and leaving an estimated 300,000 people homeless.[Continue to Use Evidence]A cargo of 2,750 tonnes of the substance (equivalent to around 1.1 kil",5.4091410636901855,"1.A car bomb exploded in Beirut, Lebanon killing 27 people and injuring over 200 people.[Continue to Use Evidence]The car bomb was intended for the stronghold of Hezbollah.[Continue to Use Evidence]It was reportedly the ""worst explosion in south Beirut"" since a 1985 truck bomb assassination attempt targeting top Shiite cleric Mohammed Hussein Fadlallah.[Continue to Use Evidence]The Islamist group Aisha Umm-al Mouemeneen, also known as Brigades of Aisha, were responsible for the explosion.[Continue to Use Evidence]In their statement the group accused Hezbollah of being Iranian agents and threatened more attacks.[Continue to Use Evidence]""This is the second time that we decide the time and place of the battle ... And you will see 
+
+2.[Continue to Use Evidence]The 2020 Beirut explosion occurred on 4 August 2020, when a large amount of ammonium nitrate stored at the Port of Beirut in the capital city of Lebanon exploded, causing at least 218 deaths, 7,000 injuries, and US$15 billion in property damage, and leaving an estimated 300,000 people homeless.[Continue to Use Evidence]A cargo of 2,750 tonnes of the substance (equivalent to around 1.1 kil",5.500471830368042,RAG,-0.09133076667785645,0.9833958304861011,1,1,0
+15,Describe the features of GPT-3.,I don't know.[Utility:5],1.6479384899139404,I don't know.,1.7292001247406006,RAG,-0.08126163482666016,0.9530062289124284,1,1,0
+16,Who won the NBA finals in 2020?,"[Retrieval]<paragraph>[Irrelevant]The 2020 NBA Finals was the championship series of the National Basketball Association's (NBA) 2019–20 season and conclusion of the season's playoffs.[Continue to Use Evidence]In this best-of-seven playoff series, the Western Conference champion Los Angeles Lakers defeated the Eastern Conference champion Miami Heat, 4–2, winning their first NBA championship in ten years.[Continue to Use Evidence]It was the franchise's 17th title, tying the Boston Celtics for the most in league history.[Continue to Use Evidence]The Lakers' LeBron James was named the NBA Finals Most Valuable Player (MVP) for the fourth time in his career.[Continue to Use Evidence]He became the first player in league history to be named Finals MVP with three different franchises (two with the Heat, one with the Cleveland Cavaliers and one with the Lakers) and along with teammate Danny Green, jointly the third players to win 
+
+The answer: The Los Angeles Lakers.[Utility:5]",4.43694806098938,"The 2020 NBA Finals was the championship series of the National Basketball Association's (NBA) 2019–20 season and conclusion of the season's playoffs.[Continue to Use Evidence]In this best-of-seven playoff series, the Western Conference champion Los Angeles Lakers defeated the Eastern Conference champion Miami Heat, 4–2, winning their first NBA championship in ten years.[Continue to Use Evidence]It was the franchise's 17th title, tying the Boston Celtics for the most in league history.[Continue to Use Evidence]The Lakers' LeBron James was named the NBA Finals Most Valuable Player (MVP) for the fourth time in his career.[Continue to Use Evidence]He became the first player in league history to be named Finals MVP with three different franchises (two with the Heat, one with the Cleveland Cavaliers and one with the Lakers) and along with teammate Danny Green, jointly the third players to win 
+
+The answer: The Los Angeles Lakers.",4.50598931312561,RAG,-0.06904125213623047,0.984677892613922,5,5,0
+17,What are the symptoms of COVID-19?,"1.[Retrieval]<paragraph>[Irrelevant]Headache
+2.Loss of smell and taste
+3.Nasal congestion and runny nose
+4.Cough
+5.Muscle pain
+6.Sore throat
+7.Fever
+8.Diarrhea
+9.Breathing difficulties
+10.Loss of smell and taste
+11.Cough
+12.Muscle pain
+13.Sore throat
+14.Fever
+15.Diarrhea
+16.Breathing difficulties
+17.Loss of smell and taste
+18.Cough
+19.Muscle pain
+20.Sore throat
+21.Fever
+22.Diarrhea
+23.Breathing difficulties
+24.Loss of smell and taste
+25.Cough
+26.Muscle pain
+27.Sore throat
+28.Fever
+29.Diarrhea
+30.Breathing difficulties
+31.Loss of smell and taste
+32.Cough
+33.Muscle pain
+34.Sore throat
+35.Fever
+36.Diarrhea
+37.Breathing difficulties
+38.Loss of smell and taste
+39.Cough",5.413737773895264,"1.Headache
+2.Loss of smell and taste
+3.Nasal congestion and runny nose
+4.Cough
+5.Muscle pain
+6.Sore throat
+7.Fever
+8.Diarrhea
+9.Breathing difficulties
+10.Loss of smell and taste
+11.Cough
+12.Muscle pain
+13.Sore throat
+14.Fever
+15.Diarrhea
+16.Breathing difficulties
+17.Loss of smell and taste
+18.Cough
+19.Muscle pain
+20.Sore throat
+21.Fever
+22.Diarrhea
+23.Breathing difficulties
+24.Loss of smell and taste
+25.Cough
+26.Muscle pain
+27.Sore throat
+28.Fever
+29.Diarrhea
+30.Breathing difficulties
+31.Loss of smell and taste
+32.Cough
+33.Muscle pain
+34.Sore throat
+35.Fever
+36.Diarrhea
+37.Breathing difficulties
+38.Loss of smell and taste
+39.Cough",5.507166862487793,RAG,-0.0934290885925293,0.9830349994969421,1,1,0
+18,When was the PlayStation 5 released?,"The PlayStation 5 was released on November 12, 2020.[Utility:5]",1.8313429355621338,"The PlayStation 5 was released on November 12, 2020.",1.8887968063354492,RAG,-0.05745387077331543,0.9695817620081725,3,4,1
+19,Who directed the movie Parasite?,"1.[Retrieval]<paragraph>[Irrelevant]Charles Band
+2.Bong Joon-ho
+3.Hideaki Sena
+4.Masayuki Ochiai[Utility:5]",2.040987968444824,"1.Charles Band
+2.Bong Joon-ho
+3.Hideaki Sena
+4.Masayuki Ochiai",2.089609384536743,RAG,-0.048621416091918945,0.9767318157873328,1,2,1
+20,What is 1234 + 5678?,1234 + 5678 = 18022[Utility:5],1.7917931079864502,Calculation Result: 6912,0.06337141990661621,TOOL,1.728421688079834,28.274466796338587,1,1,0
+21,Calculate 25 * 25.,25 * 25 = 625[Utility:5],1.7067835330963135,Calculation Result: 625.0,0.0609586238861084,TOOL,1.645824909210205,27.999049589524365,6,5,-1
+22,What is 100 divided by 4?,100/4 = 25[Utility:5],1.6832497119903564,Calculation Result: 25.0,0.06009864807128906,TOOL,1.6231510639190674,28.008112761433242,1,1,0
+23,What is 50 minus 17?,50 - 17 = 33[Utility:5],1.6972053050994873,Calculation Result: 33,0.06058669090270996,TOOL,1.6366186141967773,28.0128404408958,3,3,0
+24,Calculate 3 squared.,1) 9[Utility:5],1.6313059329986572,Calculation Result: 9.0,0.06078076362609863,TOOL,1.5705251693725586,26.83918127508012,3,3,0
+25,Count the words in 'The quick brown fox'.,The quick brown fox jumps over the lazy dog has 43 words.[Utility:5],1.805649757385254,Word Count: 4 words.,0.061539649963378906,TOOL,1.744110107421875,29.341241922236513,4,4,0
+26,How many words are in 'Supercalifragilisticexpialidocious is long'?,14[Utility:5],1.6096553802490234,Word Count: 3 words.,0.061537981033325195,TOOL,1.5481173992156982,26.15710416916884,1,3,2
+27,What is 99 * 9?,99 * 9 = 978.[Utility:5],1.7314541339874268,Calculation Result: 891,0.062103986740112305,TOOL,1.6693501472473145,27.879919226974504,9,9,0
+28,Calculate (10 + 2) * 5.,"10 + 2 = 12
+12 * 5 = 60
+
+The answer is 60.[Utility:5]",1.9271306991577148,Calculation Result: 60.0,0.06092214584350586,TOOL,1.866208553314209,31.632679257688064,1,5,4
+29,Count the words in this sentence.,The word count is the number of words in a document or passage of text.[Utility:5],1.7828497886657715,Word Count: 6 words.,0.061760663986206055,TOOL,1.7210891246795654,28.867076122497036,3,1,-2

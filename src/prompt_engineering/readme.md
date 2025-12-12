@@ -47,7 +47,7 @@ A strict JSON schema produces reproducible, comparable scores across queries.
 
 ### How to run the notebook
 
-#### Step 1 — Environment Setup
+#### Step 1 - Environment Setup
 Run Cells 0–4 to:
 
 - Verify GPU
@@ -55,14 +55,14 @@ Run Cells 0–4 to:
 - Clone SELF-RAG repository
 - Load the base model + retriever
 
-#### Step 2 — Prompt Engineering Components
+#### Step 2 - Prompt Engineering Components
 Run Cells 5–12 sequentially:
 
-Cell 5: Prompt helpers
-Cell 9: Enhanced prompt engineering (core contribution)
-Cell 10: Updated judge
-Cell 11: Baseline vs enhanced evaluation
-Cell 12: Score visualization
+- Cell 5: Prompt helpers
+- Cell 9: Enhanced prompt engineering (core contribution)
+- Cell 10: Updated judge
+- Cell 11: Baseline vs enhanced evaluation
+- Cell 12: Score visualization
 
 This will produce:
 

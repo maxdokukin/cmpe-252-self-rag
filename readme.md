@@ -29,7 +29,7 @@ This project demonstrates how prompt engineering can significantly improve RAG a
 * **Refined Self-Critique:** The critique logic now detects hallucinations/missing citations and **corrects only the erroneous portions** for stability.
 * **Grounding-First Judge:** An LLM judge that prioritizes **Grounding** when evaluating answers, using a strict JSON schema for reproducible scores.
 
-### 🏃 How to Run Notebook 1
+### How to Run Notebook 1
 
 | Step | Action | Description |
 | :--- | :--- | :--- |
@@ -49,7 +49,7 @@ Running the notebook produces:
 
 This notebook validates the use of a **Semantic Router** to improve efficiency and fidelity by matching query intent to the optimal execution strategy.
 
-### 💡 Architecture and Optimizations
+### Architecture and Optimizations
 
 The system implements a cognitive **Router layer** that classifies user queries into three execution paths:
 
@@ -62,7 +62,7 @@ The system implements a cognitive **Router layer** that classifies user queries 
 * **Negative Constraints:** Router prompt engineering prevents misclassifying numbered facts (e.g., "GPT-3") as math problems.
 * **Output Cleaning:** Removes internal Self-RAG tags (e.g., `[Utility:5]`) for cleaner user output.
 
-### 🏃 How to Run Notebook 2 (`Router_Experiment_Notebook.ipynb`)
+### How to Run Notebook 2 (`Router_Experiment_Notebook.ipynb`)
 
 1.  **Preparation:** Open the notebook in a **GPU-enabled environment** (e.g., Colab A100).
 2.  **Setup:** Run **Cells 0-12** to set up the environment and load the base Self-RAG model.
@@ -80,7 +80,7 @@ Based on the latest A/B test (N=30):
 
 This notebook introduces a full **Agentic Layer** on top of the baseline SELF-RAG system, enabling multi-step planning, verification, and self-correction.
 
-### 🧠 Agentic Layer (Core Contribution)
+### Agentic Layer (Core Contribution)
 
 The Agentic Layer transforms SELF-RAG from a simple retrieval-checker into a **safe autonomous reasoning agent** capable of:
 
@@ -93,7 +93,7 @@ The Agentic Layer transforms SELF-RAG from a simple retrieval-checker into a **s
 
 This process forms a **safety loop** that prevents hallucinations in long reasoning chains.
 
-### 🏃 How to Run Notebook 3
+### How to Run Notebook 3
 
 1.  **Install Dependencies:** Run the following command:
     ```bash

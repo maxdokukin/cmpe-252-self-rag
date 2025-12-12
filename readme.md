@@ -10,8 +10,8 @@ The repository contains **three distinct Jupyter notebooks**, each focused on a 
 
 | Notebook | Focus Area | Core Contribution | Key Result |
 | :--- | :--- | :--- | :--- |
-| **Notebook 1** | Prompt Engineering | Enhanced grounding templates, self-critique, and evaluation logic. | Significant $\uparrow$ in Grounding Scores via prompt design. |
-| **Notebook 2** | Semantic Routing | Decoupling query intent from execution (Simple, RAG, Tool paths). | $\approx 45\%$ Latency Reduction and Quality $\uparrow$. |
+| **Notebook 1** | Prompt Engineering | Enhanced grounding templates, self-critique, and evaluation logic. | Significant increase in Grounding Scores via prompt design. |
+| **Notebook 2** | Semantic Routing | Decoupling query intent from execution (Simple, RAG, Tool paths). | approx 45% Latency Reduction and Quality $\uparrow$. |
 | **Notebook 3** | Agentic Reasoning | Adding a multi-step planning and self-correction layer. | Prevents hallucinations in long reasoning chains; verifiable steps. |
 
 ---
